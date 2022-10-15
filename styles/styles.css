@@ -59,13 +59,17 @@ body {
   text-transform: uppercase;
 }
 
-.welcome,
-.newsletter-wrapper {
+.welcome-background {
   background-color: #82B3D3;
   background-image: url(../images/welcome-background.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
+
+.welcome-sign {
+  text-align: center;
+}
+
 
 .main-title,
 .hotels-search-title,
@@ -84,6 +88,10 @@ body {
   line-height: 26px;
 }
 
+.advantages-intro {
+  color: #333333;
+}
+
 .advantages-title {
   font-weight: 700;
   font-size: 24px;
@@ -95,7 +103,11 @@ body {
 .advantages-item {
   font-size: 18px;
   line-height: 21px;
+}
+
+.advantages-description {
   text-align: center;
+  color: #333333;
 }
 
 .advantages-item.blue-background {
@@ -124,7 +136,10 @@ body {
 
 .newsletter-wrapper {
   color: #FFFFFF;
-  background-image: url(../images/Subscribe.jpg)
+  background-color: #82B3D3;
+  background-image: url(../images/Subscribe.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
 .page-footer a {
@@ -142,7 +157,9 @@ body {
 .catalog-hotels-wrapper {
   color: #FFFFFF;
   background-color: #82B3D3;
-  background-image: url(../images/hotels-filter.jpg)
+  background-image: url(../images/hotels-filter.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
 .catalog-header-title {
