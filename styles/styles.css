@@ -118,6 +118,24 @@ body {
   text-decoration: none;
 }
 
+.brown-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  background: #756157;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.welcome-background {
+  background-color: #82B3D3;
+  background-image: url(../images/welcome-background.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
 .welcome-sign {
   text-align: center;
 }
@@ -183,6 +201,14 @@ body {
   font-size: 40px;
   line-height: 40px;
   text-align: center;
+}
+
+.catalog-hotels-wrapper {
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  background-image: url(../images/hotels-filter.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 
 .catalog-header-title {
