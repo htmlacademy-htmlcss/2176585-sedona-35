@@ -129,13 +129,6 @@ body {
   text-transform: uppercase;
 }
 
-.welcome-background {
-  background-color: #82B3D3;
-  background-image: url(../images/welcome-background.jpg);
-  background-size: 100% auto;
-  background-repeat: no-repeat;
-}
-
 .welcome-sign {
   text-align: center;
 }
@@ -174,6 +167,10 @@ body {
   color: #333333;
 }
 
+.advantages-description-highlighted {
+  color: #FFFFFF;
+}
+
 .advantages-item.blue-background {
   color: #FFFFFF;
   background-color: #82B3D3;
@@ -201,14 +198,6 @@ body {
   font-size: 40px;
   line-height: 40px;
   text-align: center;
-}
-
-.catalog-hotels-wrapper {
-  color: #FFFFFF;
-  background-color: #82B3D3;
-  background-image: url(../images/hotels-filter.jpg);
-  background-size: 100% auto;
-  background-repeat: no-repeat;
 }
 
 .catalog-header-title {
