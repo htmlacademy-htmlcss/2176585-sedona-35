@@ -59,7 +59,7 @@ body {
   text-transform: uppercase;
 }
 
-.welcome-background {
+.welcome {
   background-color: #82B3D3;
   background-image: url(../images/welcome-background.jpg);
   background-size: 100% auto;
@@ -158,7 +158,7 @@ body {
   color: #FFFFFF;
   background-color: #82B3D3;
   background-image: url(../images/hotels-filter.jpg);
-  background-size: 100% auto;
+  background-size: 100%;
   background-repeat: no-repeat;
 }
 
