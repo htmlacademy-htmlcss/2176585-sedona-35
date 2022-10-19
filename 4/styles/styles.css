@@ -80,7 +80,7 @@ body {
   color: #FFFFFF;
   background-color: #82B3D3;
   background-image: url(../images/hotels-filter.jpg);
-  background-size: 100%;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
@@ -118,17 +118,6 @@ body {
   text-decoration: none;
 }
 
-.brown-button {
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
-  color: #FFFFFF;
-  background: #756157;
-  text-align: center;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
 .welcome-sign {
   text-align: center;
 }
@@ -160,6 +149,7 @@ body {
 .advantages-item {
   font-size: 18px;
   line-height: 21px;
+  text-align: center;
 }
 
 .advantages-description {
@@ -167,13 +157,13 @@ body {
   color: #333333;
 }
 
-.advantages-description-highlighted {
-  color: #FFFFFF;
-}
-
 .advantages-item.blue-background {
   color: #FFFFFF;
   background-color: #82B3D3;
+}
+
+.advantages-description-highlighted {
+  color: #FFFFFF;
 }
 
 .advantages-list li:nth-child(2n) {
