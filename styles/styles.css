@@ -85,7 +85,7 @@ body {
 }
 
 .advantages-photo {
-  line-height:0;
+  display: block;
 }
 
 .no-marker-list {
