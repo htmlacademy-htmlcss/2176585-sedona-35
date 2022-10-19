@@ -85,7 +85,7 @@ body {
 }
 
 .advantages-photo {
-  verticla-align: bottom;
+  line-height:0;
 }
 
 .no-marker-list {
