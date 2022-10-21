@@ -93,10 +93,6 @@ body {
   background-repeat: no-repeat;
 }
 
-.hotels-search-wrapper {
-
-}
-
 .advantages-photo {
   display: block;
 }
@@ -139,7 +135,7 @@ body {
   padding: 0;
 }
 
-.page-footer-container {
+.page-footer {
   display: flex;
   width: 1200px;
   margin: 0 auto;
