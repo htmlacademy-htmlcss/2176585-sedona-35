@@ -23,7 +23,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  
+
   font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
@@ -93,6 +93,10 @@ body {
   background-repeat: no-repeat;
 }
 
+.hotels-search-wrapper {
+
+}
+
 .advantages-photo {
   display: block;
 }
@@ -143,7 +147,7 @@ body {
 
 .footer-social {
   width: 142px;
-  
+
 }
 
 .footer-contact {
@@ -213,6 +217,8 @@ body {
 }
 
 .advantages-item {
+  display: flex;
+
   font-size: 18px;
   line-height: 21px;
 }
@@ -225,8 +231,6 @@ body {
 .advantages-item.blue-background {
   color: #FFFFFF;
   background-color: #82B3D3;
-  
-  width: 1200px;
 }
 
 .advantages-description-highlighted {
@@ -235,14 +239,14 @@ body {
 
 .advantages-list li:nth-child(2n) {
   background-color: rgba(131, 179, 211, 0.12);
-  
+
   width: 400px;
   height: 384px;
 }
 
 .advantages-list li:nth-child(3) {
   background-color: rgba(131, 179, 211, 0.2);
-  
+
   width: 400px;
   height: 384px;
 }
