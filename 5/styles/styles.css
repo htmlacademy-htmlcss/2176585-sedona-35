@@ -95,7 +95,7 @@ body {
 
 .page-header-logo {
   width: 140px;
-  margin-right: 28px;
+  margin-right: 46px;
 }
 
 .advantages-photo {
@@ -140,6 +140,13 @@ body {
   padding: 0;
 }
 
+.catalog-hotels {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
 .page-footer {
   display: flex;
   width: 1200px;
@@ -148,16 +155,18 @@ body {
 
 .footer-social {
   max-width: 142px;
-  margin-right: 41.5px;
+  margin-left: 70;
 }
 
 .footer-contact {
   max-width: 720px;
+  margin-left: 41.5px;
+  margin-right: 41.5;
 }
 
 .made-in {
   max-width: 115px;
-  margin-left: 41.5px;
+  margin-right: 70px;
 }
 
 .page-header {
@@ -240,8 +249,6 @@ body {
 }
 
 .advantages-list li:nth-child(2n) {
-  flex-direction: column;
-
   background-color: rgba(131, 179, 211, 0.12);
 
   width: 400px;
@@ -249,8 +256,6 @@ body {
 }
 
 .advantages-list li:nth-child(3) {
-  flex-direction: column;
-
   background-color: rgba(131, 179, 211, 0.2);
 
   width: 400px;
@@ -258,8 +263,6 @@ body {
 }
 
 .advantages-list li:nth-child(7) {
-  flex-direction: column;
-
   width: 400px;
   height: 384px;
 }
@@ -302,6 +305,19 @@ body {
 line-height: 23px;
 }
 
+.hotel-list-container {
+  width: 1060px;
+}
+
+.results-count-container {
+  width: 1060px;
+}
+
+.hotel-card {
+  display: flex;
+  width: 300px;
+}
+
 .hotel-card-title {
   font-weight: 700;
   font-size: 24px;
@@ -317,7 +333,6 @@ line-height: 23px;
 
 .pagination {
   color: #FFFFFF;
-  background-color: #82B3D3;
 }
 
 .pagination-link {
