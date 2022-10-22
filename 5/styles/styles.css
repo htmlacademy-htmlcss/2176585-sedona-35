@@ -147,17 +147,18 @@ body {
   margin: 0 auto;
 }
 
-.infrastructure-container {
-  width: 150px;
-}
-
-.accomodation-container {
+.catalog-filter-group {
   width: 150px;
 }
 
 .price-container {
   display: flex;
   width: 549px;
+}
+
+.price-range {
+  width: 288px;
+  margin-right: 70px;
 }
 
 .page-footer {
