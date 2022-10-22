@@ -308,6 +308,8 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
+
+  width: 288px;
 }
 
 .breadcrumbs-link-current {
@@ -342,13 +344,14 @@ line-height: 23px;
 }
 
 .results-count {
-  width: 338px;
+  width: 538px;
   margin-right: 200px;
 }
 
 .select-control {
   width: 292px;
   margin-right: 70px;
+  height: 49px;
 }
 
 .display-mode {
