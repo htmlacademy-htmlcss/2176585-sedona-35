@@ -149,12 +149,14 @@ body {
 
 .page-footer {
   display: flex;
+  justify-content: space-between;
   width: 1200px;
-  margin: 0 auto;
+  margin: 0;
+  padding: 0;
 }
 
 .footer-social {
-  max-width: 142px;
+  width: 142px;
   margin-left: 70;
 }
 
@@ -306,11 +308,38 @@ line-height: 23px;
 }
 
 .hotel-list-container {
+  display: flex;
+  margin: 0 auto;
   width: 1060px;
 }
 
+.hotel-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
 .results-count-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
   width: 1060px;
+}
+
+.results-count {
+  width: 338px;
+  margin-right: 200px;
+}
+
+.select-control {
+  width: 292px;
+  margin-right: 70px;
+}
+
+.display-mode {
+  width: 160px;
 }
 
 .hotel-card {
