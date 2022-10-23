@@ -161,9 +161,12 @@ body {
 }
 
 .price-range {
-  width: 288px;
   border: none;
   padding: 0;
+}
+
+.price-range-wrapper {
+  display: flex;
 }
 
 .page-footer {
@@ -210,6 +213,7 @@ body {
 .navigation-link-enroll {
   text-decoration: none;
   color: #FFFFFF;
+  height: 100%;
 }
 
 .breadcrumbs-link {
@@ -272,7 +276,6 @@ body {
   background-color: rgba(131, 179, 211, 0.12);
 
   width: 400px;
-  padding-top: 103px;
   padding-bottom: 121px;
 }
 
@@ -280,14 +283,20 @@ body {
   background-color: rgba(131, 179, 211, 0.2);
 
   width: 400px;
-  padding-top: 103px;
   padding-bottom: 121px;
 }
 
 .advantages-list li:nth-child(7) {
   width: 400px;
-  padding-top: 103px;
   padding-bottom: 121px;
+}
+
+.advantages-no-logo {
+  padding-top: 103px;
+}
+
+.advantages-with-logo {
+  padding-top: 80px;
 }
 
 .centering-wrapper {
