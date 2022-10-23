@@ -115,8 +115,12 @@
             <div class="price-container">
               <fieldset class="price-range">
                 <p class="catalog-filter-title">Стоимость, ₽:</p>
-                <input type="text" name="range-slider" placeholder="от" id="min-price" value="0">
-                <input type="text" name="range-slider" placeholder="до" id="max-price" value="9000">
+                <div class="price-range-wrapper">
+                  <label for="range-slider">от</label>
+                  <input type="text" name="range-slider" placeholder="от" id="min-price" value="0">
+                  <label for="range-slider">до</label>
+                  <input type="text" name="range-slider" placeholder="до" id="max-price" value="9000">
+                </div>
               </fieldset>
               <div class="filter-button-group">
                 <button class="button submit-button action-btn-style catalog-btn" type="submit">Применить</button>
