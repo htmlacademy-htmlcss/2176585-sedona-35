@@ -115,15 +115,15 @@
               <fieldset class="price-range">
                 <p class="catalog-filter-title">Стоимость, ₽:</p>
                 <div class="price-range-wrapper">
-                  <label for="range-slider">от</label>
-                  <input type="text" name="range-slider" placeholder="от" id="min-price" value="0">
-                  <label for="range-slider">до</label>
-                  <input type="text" name="range-slider" placeholder="до" id="max-price" value="9000">
+                  <label class="range-slider-text" for="range-slider">от</label>
+                  <input class="range-slider-input range-slider-input-min" type="text" name="range-slider" placeholder="от" id="min-price" value="0">
+                  <label class="range-slider-text" for="range-slider">до</label>
+                  <input class="range-slider-input range-slider-input-max" type="text" name="range-slider" placeholder="до" id="max-price" value="9000">
                 </div>
               </fieldset>
               <div class="filter-button-group">
-                <button class="button submit-button action-btn-style catalog-btn" type="submit">Применить</button>
-                <button class="button reset-button action-btn-style catalog-btn" type="reset">Сбросить</button>
+                <button class="button submit-button price-range-btn action-btn-style catalog-btn" type="submit">Применить</button>
+                <button class="button reset-button price-range-btn action-btn-style catalog-btn" type="reset">Сбросить</button>
               </div>
             </div>
             </form>
@@ -258,7 +258,7 @@
             <a class="pagination-link" href="#">4</a>
           </li>
           <li class="pagination-item no-marker-list">
-            <p class="more">&hellip;</p>
+            <p class="pagination-more">&hellip;</p>
           </li>
           <li class="pagination-item no-marker-list">
             <a class="pagination-link" href="#">10</a>
