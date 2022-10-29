@@ -51,11 +51,22 @@ body {
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
+  width: 140px;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.add-to-favorites-button {
+  width: 140px;
+  padding: 8px;
+  border-radius: 4px;
 }
 
 .hotels-search-button {
   font-size: 20px;
   line-height: 36px;
+  padding: 8px 50px;
+  border-radius: 4px;
 }
 
 .action-btn-style {
@@ -70,6 +81,19 @@ body {
 .newsletter-button {
   font-size: 20px;
   line-height: 36px;
+  padding: 8px 50px;
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.newsletter-input {
+  font-size: 20px;
+  line-height: 36px;
+  padding: 8px 20px;
+  border: none;
+  width: 452px;
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
 }
 
 .catalog-btn {
@@ -84,7 +108,7 @@ body {
 .welcome {
   background-color: #82B3D3;
   background-image: url(../images/welcome-background.jpg);
-  background-size: 100% auto;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
@@ -99,8 +123,7 @@ body {
 }
 
 .hotels-search-wrapper {
-  padding-top: 96px;
-  padding-bottom: 96px;
+  padding: 96px 304px;
 }
 
 .catalog-hotels-wrapper {
@@ -109,11 +132,12 @@ body {
   background-image: url(../images/hotels-filter.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  padding: 35px 70px 70px 70px
 }
 
 .page-header-logo {
   width: 140px;
-  margin-right: 46px;
+  margin-left: 70px;
 }
 
 .advantages-photo {
@@ -136,10 +160,11 @@ body {
   width: 607px;
   margin: 0;
   padding: 0;
+  align-items: center;
 }
 
 .navigation-user {
-  max-width: 268px;
+  align-items: center;
   margin-left: auto;
 }
 
@@ -169,13 +194,28 @@ body {
   display: flex;
   justify-content: space-between;
   width: 1060px;
-  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.infrastructure-container {
+  margin-right: 70px;
+  min-width: 150px;
+}
+
+.accomodation-container {
+  margin-right: 140px;
+  min-width: 150px;
 }
 
 .catalog-filter-group {
-  width: 150px;
   border: none;
   padding: 0;
+}
+
+.catalog-filter-list {
+  padding: 0;
+  margin-top: 32px;
+  margin-bottom: 0;
 }
 
 .price-container {
@@ -192,6 +232,40 @@ body {
 
 .price-range-wrapper {
   display: flex;
+  margin-top: 32px;
+}
+
+.range-slider-input {
+  padding: 12px 20px 12px 20px;
+  width: 143px;
+}
+
+.range-slider-input-min {
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+.range-slider-input-max {
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.range-slider-text {
+  margin-right: -131px;
+    color: black;
+    position: relative;
+    align-self: center;
+}
+
+.filter-button-group {
+  margin-left: 70px;
+}
+
+.price-range-btn {
+  margin-bottom: 32px;
+  padding: 8px;
+  width: 191px;
+  border-radius: 4px;
 }
 
 .page-footer {
@@ -253,6 +327,15 @@ body {
   color: #FFFFFF;
   height: 100%;
   padding: 8px 34px;
+  margin-right: 70px;
+  margin-left: 20px;
+  border-radius: 4px;
+}
+
+.breadcrumbs {
+  display: flex;
+  margin: 0;
+  padding: 0;
 }
 
 .breadcrumbs-link {
@@ -260,6 +343,7 @@ body {
   font-size: 16px;
   line-height: 21px;
   text-decoration: none;
+  margin-right: 28px;
 }
 
 .welcome-sign {
@@ -273,12 +357,24 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
-  margin-top: 69px;
+  margin: 0;
 }
 
 .paragraph-text {
   font-size: 22px;
   line-height: 26px;
+  margin-bottom: 54px;
+  margin-top: 20px;
+}
+
+.hotels-search-text {
+  width: 592px;
+}
+
+.newsletter-text {
+  width: 475px;
+  margin-left: 362px;
+  margin-right: 362px;
 }
 
 .advantages-intro {
@@ -371,14 +467,16 @@ body {
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
+  margin: 0;
 }
 
 .catalog-filter-title {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-
   width: 288px;
+  padding: 0;
+  margin: 0;
 }
 
 .breadcrumbs-link-current {
@@ -468,6 +566,14 @@ line-height: 23px;
   line-height: 36px;
 }
 
+.pagination-link:not(:last-child) {
+  padding: 18px 24px;
+}
+
+.pagination-link:last-child {
+  padding: 18px 18px;
+}
+
 .pagination-current {
   color: #000000;
   background-color: #F2F2F2;
@@ -476,4 +582,13 @@ line-height: 23px;
 .pagination-item p {
   color: #000000;
   background-color: #ffffff;
+}
+
+.pagination-more {
+  padding: 18px 24px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  justify-content: center;
+  text-align: center;
 }
