@@ -251,13 +251,6 @@ body {
   border-top-right-radius: 4px;
 }
 
-.range-slider-text {
-  margin-right: -131px;
-    color: black;
-    position: relative;
-    align-self: center;
-}
-
 .filter-button-group {
   margin-left: 70px;
 }
@@ -516,6 +509,8 @@ line-height: 23px;
   margin: 0 auto;
   width: 1060px;
   align-items: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 
 .results-count {
