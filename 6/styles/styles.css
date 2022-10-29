@@ -525,9 +525,16 @@ line-height: 23px;
 }
 
 .display-mode {
+  display: flex;
+  column-gap: 8px;
   width: 160px;
   margin: 0;
   padding: 0;
+}
+
+.display-mode .button {
+  width: 48px;
+  height: 48px;
 }
 
 .hotel-card {
