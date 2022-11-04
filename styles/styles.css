@@ -253,19 +253,20 @@ body {
 
 .range-slider-text {
   line-height: 24px;
-  color: #BABABA;
+  color: black;
+  opacity: 0.3;
 }
 
 .range-slider-text-min {
   position: absolute;
-  left: 735px;
-  top: 303px;
+  left: 755px;
+  top: 305px;
 }
 
 .range-slider-text-max {
   position: absolute;
-  top: 303px;
-  left: 875px;
+  top: 305px;
+  left: 895px;
 }
 
 .range-slider-input-min {
