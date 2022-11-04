@@ -258,14 +258,14 @@ body {
 
 .range-slider-text-min {
   position: absolute;
-  right: 275px;
+  left: 735px;
   top: 303px;
 }
 
 .range-slider-text-max {
   position: absolute;
   top: 303px;
-  left: 825px;
+  left: 875px;
 }
 
 .range-slider-input-min {
@@ -621,7 +621,7 @@ line-height: 23px;
   color: #333333;
   background-color: #F2F2F2;
   margin: 0;
-  padding: 8px 22px;
+  padding: 8px;
   width: 140px;
   border-radius: 4px;
   box-sizing: border-box;
