@@ -57,6 +57,19 @@ body {
   border-radius: 4px;
 }
 
+.link-button:hover {
+  background: #615048;
+}
+
+.link-button:focus {
+  background: #615048;
+}
+
+.link-button:active {
+  background: #756157;
+  color: rgba(255, 255, 255, 0.3);
+}
+
 .add-to-favorites-button {
   width: 140px;
   padding: 8px;
@@ -79,6 +92,20 @@ body {
   border: none;
 }
 
+.action-btn-style:hover {
+  background: #68A2CAed;
+}
+
+.action-btn-style:focus {
+  background: #68A2CAed;
+}
+
+.action-btn-style:active {
+  background: #68A2CAed;
+  color: #FFFFFF;
+  opacity: 0.3;
+}
+
 .newsletter-button {
   font-size: 20px;
   line-height: 36px;
@@ -95,6 +122,7 @@ body {
   width: 452px;
   border-bottom-left-radius: 4px;
   border-top-left-radius: 4px;
+  background-color: #F2F2F2;
 }
 
 .catalog-btn {
@@ -240,6 +268,7 @@ body {
 .price-range-wrapper {
   display: flex;
   margin-top: 32px;
+  position: relative;
 }
 
 .range-slider-input {
@@ -249,6 +278,7 @@ body {
   padding: 12px 20px 12px 20px;
   width: 103px;
   border: none;
+  background-color: #F2F2F2;
 }
 
 .range-slider-text {
@@ -259,14 +289,14 @@ body {
 
 .range-slider-text-min {
   position: absolute;
-  left: 755px;
-  top: 305px;
+  left: 106px;
+  top: 12px;
 }
 
 .range-slider-text-max {
   position: absolute;
-  top: 305px;
-  left: 895px;
+  top: 12px;
+  right: 12px;
 }
 
 .range-slider-input-min {
@@ -322,9 +352,39 @@ body {
   margin-right: 41.5;
 }
 
+.footer-contact-number-link:hover {
+  color: #756157;
+}
+
+.footer-contact-number-link:focus {
+  color: #756157;
+}
+
+.footer-contact-number-link:focus {
+  color: #756157;
+  opacity: 0.3;
+}
+
 .made-in {
   max-width: 115px;
   margin-right: 70px;
+}
+
+.made-in-logo {
+  fill: #000000;
+}
+
+.made-in-link:hover .made-in-logo {
+  fill: #756157;
+}
+
+.made-in-link:focus .made-in-logo {
+  fill: #756157;
+}
+
+.made-in-link:active .made-in-logo {
+  fill: #756157;
+  opacity: 0.3;
 }
 
 .page-header {
@@ -345,6 +405,17 @@ body {
   font-weight: 700;
   text-decoration: none;
   color: #000000;
+  position: relative;
+}
+
+.navigation-link-current::before {
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  left: 20px;
+  height: 2px;
+  background-color: #756257;
+  content: "";
 }
 
 .navigation-link-enroll {
@@ -487,6 +558,23 @@ body {
 .page-footer a {
   color: #000000;
   text-decoration: none;
+}
+
+.footer-social-icon {
+  fill: #83B3D3;
+}
+
+.footer-social-link:hover .footer-social-icon {
+  fill: #68A2CA;
+}
+
+.footer-social-link:focus .footer-social-icon {
+  fill: #68A2CA;
+}
+
+.footer-social-link:active .footer-social-icon {
+  fill: #68A2CA;
+  opacity: 0.3;
 }
 
 .footer-contact-number {
