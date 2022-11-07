@@ -2,7 +2,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 400;
-  src: url("fonts\ptsans-400.woff2") format("woff2");
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -10,7 +10,7 @@
   font-family: "PT Sans";
   font-style: normal;
   font-weight: 700;
-  src: url("fonts\ptsans-700.woff2") format("woff2");
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
 
@@ -70,6 +70,10 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
+.link-button:disabled {
+  background: #E5E5E5;
+}
+
 .add-to-favorites-button {
   width: 140px;
   padding: 8px;
@@ -90,6 +94,8 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
   border: none;
+  cursor: pointer;
+  border: 3px solid transparent;
 }
 
 .action-btn-style:hover {
@@ -102,8 +108,31 @@ body {
 
 .action-btn-style:active {
   background: #68A2CAed;
-  color: #FFFFFF;
   opacity: 0.3;
+}
+
+.action-btn-style:disabled {
+  background: #E5E5E5;;
+}
+
+.reset-button.action-btn-style {
+  background: none;
+}
+
+.reset-button.action-btn-style:hover {
+  opacity: 0.6;
+}
+
+.reset-button.action-btn-style:focus {
+  border: 3px solid #83B3D3;
+}
+
+.reset-button.action-btn-style:hover {
+  opacity: 0.3;
+}
+
+.reset-button.action-btn-style:disabled {
+  opacity: 0.1;
 }
 
 .newsletter-button {
@@ -128,10 +157,6 @@ body {
 .catalog-btn {
   font-size: 16px;
   line-height: 20px;
-}
-
-.reset-button {
-  background: none;
 }
 
 .welcome {
@@ -440,6 +465,13 @@ body {
   line-height: 21px;
   text-decoration: none;
   margin-right: 28px;
+  position: relative;
+}
+
+.breadcrumbs-link::after {
+  content: url(../images/arrow-right.svg);;
+  position: absolute;
+  right: -20px;
 }
 
 .welcome-sign {
@@ -664,11 +696,13 @@ line-height: 23px;
   height: 48px;
   border: 2px solid #E5E5E5;
   border-radius: 4%;
+  box-sizing: border-box;
 }
 
 .display-mode-button-checked {
   border: 2px solid #000000;
   border-radius: 4px;
+  box-sizing: border-box;
 }
 
 .display-mode-icon {
@@ -763,4 +797,17 @@ line-height: 23px;
   line-height: 26px;
   text-align: center;
   width: 60px;
+}
+
+.pagination-not-current:hover {
+  background: #68A2CA;
+}
+
+.pagination-not-current:focus {
+    background: #68A2CA;
+}
+
+.pagination-not-current:active {
+  background: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
 }
