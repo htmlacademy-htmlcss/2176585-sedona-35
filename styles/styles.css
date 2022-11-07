@@ -108,7 +108,7 @@ body {
 
 .action-btn-style:active {
   background: #68A2CAed;
-  opacity: 0.3;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .action-btn-style:disabled {
@@ -120,7 +120,7 @@ body {
 }
 
 .reset-button.action-btn-style:hover {
-  opacity: 0.6;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .reset-button.action-btn-style:focus {
@@ -387,7 +387,7 @@ body {
 
 .footer-contact-number-link:focus {
   color: #756157;
-  opacity: 0.3;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .made-in {
@@ -409,7 +409,7 @@ body {
 
 .made-in-link:active .made-in-logo {
   fill: #756157;
-  opacity: 0.3;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .page-header {
@@ -606,7 +606,7 @@ body {
 
 .footer-social-link:active .footer-social-icon {
   fill: #68A2CA;
-  opacity: 0.3;
+  color: rgba(255, 255, 255, 0.3);
 }
 
 .footer-contact-number {
