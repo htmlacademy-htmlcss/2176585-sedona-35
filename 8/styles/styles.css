@@ -134,6 +134,11 @@ body {
   opacity: 0.1;
 }
 
+.newsletter-contact {
+  display: flex;
+  justify-content: center;
+}
+
 .newsletter-button {
   font-family: 'PT Sans';
   font-size: 20px;
@@ -148,7 +153,7 @@ body {
   font-family: 'PT Sans';
   font-size: 18px;
   line-height: 24px;
-  padding: 8px 20px;
+  padding: 14px 20px;
   border: none;
   width: 452px;
   border-bottom-left-radius: 4px;
@@ -481,7 +486,7 @@ body {
 }
 
 .footer-social-item {
-  min-width: 47px;
+  min-width: 45px;
 }
 
 .footer-social-item:first-child {
@@ -545,9 +550,9 @@ body {
 
 .navigation-link-current::before {
   position: absolute;
-  right: 20px;
+  right: 16px;
   bottom: 0;
-  left: 20px;
+  left: 16px;
   height: 2px;
   background-color: #756257;
   content: "";
@@ -586,7 +591,7 @@ body {
 
 .welcome-sign {
   text-align: center;
-  padding-top: 51px;
+  padding-top: 46px;
   padding-bottom: 82px;
 }
 
