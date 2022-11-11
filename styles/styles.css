@@ -94,7 +94,7 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
   cursor: pointer;
-  border: 3px solid transparent;
+  border: none;
 }
 
 .action-btn-style:hover {
@@ -116,6 +116,7 @@ body {
 
 .reset-button.action-btn-style {
   background: none;
+  margin: 0;
 }
 
 .reset-button.action-btn-style:hover {
@@ -126,7 +127,7 @@ body {
   border: 3px solid #83B3D3;
 }
 
-.reset-button.action-btn-style:hover {
+.reset-button.action-btn-style:active {
   opacity: 0.3;
 }
 
@@ -137,6 +138,10 @@ body {
 .newsletter-contact {
   display: flex;
   justify-content: center;
+}
+
+.newsletter-title {
+  text-transform: uppercase;
 }
 
 .newsletter-button {
@@ -163,6 +168,7 @@ body {
 }
 
 .catalog-btn {
+  font-family: 'PT Sans';
   font-size: 16px;
   line-height: 20px;
 }
@@ -427,6 +433,7 @@ body {
 
 .filter-button-group {
   margin-left: 70px;
+  margin-top: 56px;
 }
 
 .price-range-btn {
@@ -434,6 +441,7 @@ body {
   padding: 8px;
   width: 191px;
   border-radius: 4px;
+  border: none;
 }
 
 .range-scale {
@@ -572,6 +580,7 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
+  margin-top: 8px;
 }
 
 .breadcrumbs-link {
@@ -730,6 +739,7 @@ body {
 .centering-wrapper {
   text-align: center;
   position: relative;
+  justify-content: center;
 }
 
 .page-footer a {
@@ -783,7 +793,8 @@ body {
 
 .catalog-filter-item {
   font-size: 18px;
-line-height: 23px;
+  line-height: 23px;
+  margin-bottom: 16px;
 }
 
 .hotel-list-container {
@@ -813,7 +824,6 @@ line-height: 23px;
 
 .results-count {
   width: 538px;
-  margin-right: 200px;
 }
 
 .select-control {
@@ -825,6 +835,7 @@ line-height: 23px;
   height: 49px;
   border: 2px solid #E5E5E5;
   border-radius: 4px;
+  padding-left: 20px;
 }
 
 .display-mode {
@@ -857,7 +868,6 @@ line-height: 23px;
   display: flex;
   width: 300px;
   padding: 20px;
-  margin-bottom: 20px;
   border: 1px solid #E6E6E6;
   border-radius: 4px;
 }
@@ -867,7 +877,7 @@ line-height: 23px;
   font-size: 24px;
   line-height: 28px;
   margin: 0;
-  margin-top: 16px;
+  margin-top: 14px;
 }
 
 .hotel-card-content-wrapper {
@@ -901,8 +911,8 @@ line-height: 23px;
   align-items: center;
   color: #FFFFFF;
   column-gap: 8px;
-  margin-top: 40px;
-  margin-bottom: 60px;
+  margin-top: 80px;
+  margin-bottom: 40px;
   margin-left: 70px;
   padding: 0;
 }
