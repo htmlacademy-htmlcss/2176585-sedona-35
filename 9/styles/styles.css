@@ -865,7 +865,9 @@ body {
 
 .select-control::after {
   position: absolute;
-  background-image: url(../images/arrow-down.svg) no-repeat right;
+  background-image: url(../images/arrow-down.svg);
+  background-repeat: no-repeat;
+  background-position: center;
   content: "";
   top: 21px;
   right: 21px;
