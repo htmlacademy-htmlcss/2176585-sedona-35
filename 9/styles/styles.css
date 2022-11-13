@@ -1057,6 +1057,7 @@ body {
 
 .quantity-field {
   font-family: "PT Sans", sans-serif;
+  font-weight: 700;
   font-size: 18px;
   line-height: 20px;
   width: 31px;
@@ -1086,20 +1087,38 @@ body {
 }
 
 .quantity-plus::before {
-  content: "+";
-  font-size: 18px;
-  line-height: 20px;
-  color: rgba(117, 97, 87, 0.3);
+  position: absolute;
+  top: 24px;
+  left: 84px;
+  width: 14px;
+  height: 2px;
+  background-color: rgba(117, 97, 87, 0.3);
+  content: "";
+}
+
+.quantity-plus::after {
+  position: absolute;
+  top: 24px;
+  left: 84px;
+  width: 14px;
+  height: 2px;
+  background-color: rgba(117, 97, 87, 0.3);
+  content: "";
+  transform: rotate(90deg);
 }
 
 .quantity-minus::before {
-  content: "-";
-  font-size: 18px;
-  line-height: 20px;
-  color: rgba(117, 97, 87, 0.3);
+  position: absolute;
+  top: 24px;
+  left: 14px;
+  width: 14px;
+  height: 2px;
+  background-color: rgba(117, 97, 87, 0.3);
+  content: "";
 }
 
 .quantity-input-wrapper {
+  position: relative;
   display: flex;
 }
 
@@ -1160,6 +1179,16 @@ body {
 
 .modal-label-arrival {
   margin-right: 24px;
+}
+
+.modal-button {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  width: 577px;
+  padding: 18px 0;
+  border-radius: 10px;
 }
 
 .modal-container-close {
