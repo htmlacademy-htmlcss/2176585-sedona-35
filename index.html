@@ -205,7 +205,7 @@
         </a>
       </section>
     </footer>
-    <div class="modal-container">
+    <div class="modal-container modal-container-close">
       <div class="modal modal-auth">
         <button class="modal-close-button">
           <span class="visually-hidden">Закрыть</span>
@@ -217,7 +217,7 @@
             <div class="arrival-date-wrapper">
               <label class="modal-label modal-label-arrival" for="auth-arrival-date">Дата заезда:</label>
               <input class="auth-form-field field date-input-field" type="date" id="auth-arrival-date"
-                name="auth-arrival-date" value="27 апреля 2020" placeholder="27 апреля 2020">
+                name="auth-arrival-date" value="27 апреля 2020">
             </div>
             <p class="date-incorrect-notice">Мы не можем отправить вас в прошлое.</p>
             </p>
@@ -225,7 +225,7 @@
               <div class="departure-date-wrapper">
                 <label class="modal-label modal-label-departure" for="auth-departure-date">Дата выезда:</label>
                 <input class="auth-form-field field date-input-field" type="date" id="auth-departure-date"
-                  name="auth-departure-date" value="1 сентября 2023" placeholder="1 сентября 2023">
+                  name="auth-departure-date" value="1 сентября 2023">
               </div>
               <p class="date-correct-notice">На эти даты есть свободные номера. Пока есть.</p>
               </p>
@@ -234,7 +234,7 @@
                 <label class="modal-label" for="auth-adults-quantity">Взрослые:</label>
                 <div class="quantity-input-wrapper adults-quantity-input">
                   <button class="quantity-plus"></button><input class="auth-form-field field quantity-field" type="number"
-                    id="auth-adults-quantity" name="auth-adults-quantity" placeholder="2" min="1"><button
+                    id="auth-adults-quantity" name="auth-adults-quantity" value="2"><button
                     class="quantity-minus"></button>
                 </div>
                 </p>
@@ -242,7 +242,7 @@
                   <label class="modal-label" for="auth-children-quantity">Дети:</label>
                 <div class="quantity-input-wrapper children-quantity-input">
                   <button class="quantity-plus"></button><input class="auth-form-field field quantity-field" type="number"
-                    id="auth-children-quantity" name="auth-children-quantity" placeholder="2"><button
+                    id="auth-children-quantity" name="auth-children-quantity" value="2"><button
                     class="quantity-minus"></button>
                 </div>
               </div>
