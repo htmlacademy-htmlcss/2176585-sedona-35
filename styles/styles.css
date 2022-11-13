@@ -220,6 +220,7 @@ body {
   position: absolute;
   width: 140px;
   margin-left: 70px;
+  z-index: 1;
 }
 
 .advantages-photo {
@@ -345,8 +346,8 @@ body {
 
 .control-input[type="checkbox"]:checked + .control-mark::before{
   position: absolute;
-  top: 7px;
-  left: 7px;
+  top: 5px;
+  left: 5px;
   width: 100%;
   height: 100%;
   background-image: url(../images/check-box.svg);
@@ -612,9 +613,10 @@ body {
   padding-bottom: 82px;
 }
 
-.welcome-sign::after {
+.welcome::after {
   content: url(../images/welcome-decor.svg);
   top: 428px;
+  position: absolute;
 }
 
 .main-title {
@@ -856,10 +858,17 @@ body {
   padding-left: 20px;
 }
 
-.select {
+.select-control {
   appearance: none;
-  overflow: hidden;
-  background: url('../images/arrow-right.svg') no-repeat right;
+  position: relative;
+}
+
+.select-control::after {
+  position: absolute;
+  background-image: url(../images/arrow-down.svg) no-repeat right;
+  content: "";
+  top: 21px;
+  right: 21px;
 }
 
 .display-mode {
@@ -882,6 +891,18 @@ body {
   border: 2px solid #000000;
   border-radius: 4px;
   box-sizing: border-box;
+}
+
+.display-mode-button:hover {
+  border: 2px solid #000000;
+}
+
+.display-mode-button:focus {
+  border: 2px solid #68A2CA;
+}
+
+.display-mode-button:active {
+  border: 2px solid #000000;
 }
 
 .display-mode-icon {
@@ -1029,6 +1050,16 @@ body {
   cursor: pointer;
 }
 
+.modal-close-button:hover {
+background-color: #E6E6E6;
+}
+
+.modal-close-button:focus {
+  background-color: #E6E6E6;
+  box-shadow: 0 0 0 3px #83B3D3;
+  box-sizing: border-box;
+  }
+
 .modal-title {
   margin: 0;
   font-family: "PT Sans", sans-serif;
@@ -1072,14 +1103,13 @@ body {
 .date-input-field::before {
   position: absolute;
   top: 16px;
-  right: 22px;
+  left: 537px;
   width: 100%;
   height: 100%;
   background-image: url(../images/calendar.svg);
   content: "";
   opacity: 0.3;
   background-repeat: no-repeat;
-  cursor: pointer;
 }
 
 .quantity-field::-webkit-outer-spin-button,
@@ -1151,6 +1181,15 @@ body {
   content: "";
 }
 
+.quantity-plus:hover::before,
+.quantity-plus:hover::after {
+  background-color: #000000;
+}
+
+.quantity-minus:hover::before {
+  background-color: #000000;
+}
+
 .quantity-input-wrapper {
   position: relative;
   display: flex;
@@ -1200,7 +1239,7 @@ body {
 }
 
 .children-quantity-input {
-  margin-left: 65px;
+  margin-left: 82px;
 }
 
 .modal-label {
@@ -1261,14 +1300,13 @@ body {
   display: block;
 }
 
-.tooltip-text:after {
+.tooltip-text:before {
   content:'';
   background-image: url("../images/tooltip-arrow.svg");
-  width: 14px;
-  height: 6px;
+  width: 19px;
+  height: 9px;
   position:absolute;
-  transform: rotate(180deg);
-  top: 100%;
+  bottom: 100%;
   left:0;
   right:0;
   margin-left: auto;
