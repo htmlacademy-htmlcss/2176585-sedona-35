@@ -13,7 +13,33 @@
   src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
+.favorites-count {
+  position: relative;
+}
 
+.favorites-count::before {
+  width: 20px;
+  height: 20px;
+  background: #7DB54F;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  top: 11px;
+  right: 4px
+}
+
+
+.favorites-count::after {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  color: #FFFFFF;
+  content: "12";
+  position: absolute;
+  top: 16px;
+  right: 8.5px
+}
 html {
   height: 100%;
 }
@@ -655,10 +681,12 @@ body {
   text-align: center;
   padding-top: 46px;
   padding-bottom: 77px;
+  padding-bottom: 77px;
 }
 
 .welcome::after {
   content: url(../images/welcome-decor.svg);
+  top: 422px;
   top: 422px;
   position: absolute;
 }
@@ -878,6 +906,7 @@ body {
 
 .results-count-container {
   position: relative;
+  position: relative;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -909,6 +938,10 @@ body {
 
 .select-control::before {
   position: absolute;
+  top: 21px;
+  left: 798px;
+  width: 100%;
+  height: 100%;
   top: 21px;
   left: 798px;
   width: 100%;
@@ -1321,6 +1354,7 @@ background-color: #E6E6E6;
   transform: translateX(-50%);
   z-index: 1;
   display: none;
+  box-sizing: border-box;
   box-sizing: border-box;
 }
 
