@@ -610,12 +610,12 @@ body {
 .welcome-sign {
   text-align: center;
   padding-top: 46px;
-  padding-bottom: 82px;
+  padding-bottom: 77px;
 }
 
 .welcome::after {
   content: url(../images/welcome-decor.svg);
-  top: 428px;
+  top: 422px;
   position: absolute;
 }
 
@@ -1295,6 +1295,7 @@ background-color: #E6E6E6;
   transform: translateX(-50%);
   z-index: 1;
   display: none;
+  box-sizing: border-box;
 }
 
 .tooltip-toggle:hover + .tooltip-text,
