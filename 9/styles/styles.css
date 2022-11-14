@@ -13,7 +13,33 @@
   src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
+.favorites-count {
+  position: relative;
+}
 
+.favorites-count::before {
+  width: 20px;
+  height: 20px;
+  background: #7DB54F;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  top: 11px;
+  right: 4px
+}
+
+
+.favorites-count::after {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  color: #FFFFFF;
+  content: "12";
+  position: absolute;
+  top: 16px;
+  right: 8.5px
+}
 html {
   height: 100%;
 }
@@ -259,6 +285,34 @@ body {
 
 .navigation-user .navigation-item .navigation-link {
   padding: 20px 12px;
+}
+
+.favorites-count {
+  position: relative;
+}
+
+.favorites-count::before {
+  width: 20px;
+  height: 20px;
+  background: #7DB54F;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  top: 11px;
+  right: 4px
+}
+
+
+.favorites-count::after {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 10px;
+  color: #FFFFFF;
+  content: "12";
+  position: absolute;
+  top: 16px;
+  right: 8.5px
 }
 
 .main-container {
