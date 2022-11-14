@@ -127,15 +127,15 @@ body {
   background: #7DB54F;
 }
 
-.add-to-favorites-button-checked:hover {
+.action-btn-style.action-btn-style.add-to-favorites-button-checked:hover {
   background: #6C9E42;
 }
 
-.add-to-favorites-button-checked:focus {
+.action-btn-style.add-to-favorites-button-checked:focus {
   background: #6C9E42;
 }
 
-.add-to-favorites-button-checked:active {
+.action-btn-style.add-to-favorites-button-checked:active {
   background: #7DB54F;
   color: rgba(255, 255, 255, 0.3);
 }
@@ -906,7 +906,6 @@ body {
 
 .results-count-container {
   position: relative;
-  position: relative;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -936,19 +935,14 @@ body {
   appearance: none;
 }
 
-.select-control::before {
+.results-count::before {
   position: absolute;
-  top: 21px;
-  left: 798px;
-  width: 100%;
-  height: 100%;
-  top: 21px;
+  top: 14px;
   left: 798px;
   width: 100%;
   height: 100%;
   background-image: url(../images/arrow-down.svg);
   background-repeat: no-repeat;
-  background-position: center;
   content: "";
   cursor: pointer;
 }
