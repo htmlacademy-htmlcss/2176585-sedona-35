@@ -887,6 +887,7 @@ body {
 }
 
 .results-count-container {
+  position: relative;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -914,17 +915,18 @@ body {
 
 .select-control {
   appearance: none;
-  position: relative;
 }
 
-.select-control::after {
+.results-count::before {
   position: absolute;
-  background-image: url(../images/arrow-down.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  content: "";
   top: 21px;
-  right: 21px;
+  left: 798px;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/arrow-down.svg);
+  content: "";
+  background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .display-mode {
