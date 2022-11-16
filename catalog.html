@@ -97,7 +97,6 @@
                     </li>
                   </ul>
                 </fieldset>
-            </div>
             <div class="accomodation-container">
               <fieldset class="catalog-filter-group">
                 <legend class="catalog-filter-title">Тип Жилья:</legend>
@@ -133,12 +132,12 @@
               <fieldset class="price-range">
                 <p class="catalog-filter-title">Стоимость, ₽:</p>
                 <div class="price-range-wrapper">
-                  <label class="range-slider-text range-slider-text-min" for="range-slider">от</label>
+                  <label class="range-slider-text range-slider-text-min" for="min-price">от</label>
                   <input class="range-slider-input range-slider-input-min" type="text" name="range-slider"
                     placeholder="от" id="min-price" value="0">
                   <input class="range-slider-input range-slider-input-max" type="text" name="range-slider"
                     placeholder="до" id="max-price" value="9000">
-                  <label class="range-slider-text range-slider-text-max" for="range-slider">до</label>
+                  <label class="range-slider-text range-slider-text-max" for="max-price">до</label>
                 </div>
                 <div class="range">
                   <div class="range-scale">
@@ -151,6 +150,7 @@
                       </button>
                     </div>
                   </div>
+                </div>
               </fieldset>
               <div class="filter-button-group">
                 <button class="button submit-button price-range-btn action-btn-style catalog-btn"
@@ -160,8 +160,8 @@
               </div>
             </div>
             </form>
-          </section>
-        </div>
+          </div>
+        </section>
         <div class="results-count-container">
           <p class="results-count section-title"><span>Найдено гостиниц: <span class="goods-count">38</span></span></p>
           <select class="select-control" aria-label="Сортировка">
@@ -329,13 +329,13 @@
           </p>
           <form class="newsletter-contact" method="post" action="https://echo.htmlacademy.ru/">
             <label class="visually-hidden" for="newsletter-email">Email</label>
-            <input class="newsletter-input" type="email" name="newsletter-email" placeholder="Ваш email"
-              id="newsletter-email" required>
+            <input class="newsletter-input" type="email" name="newsletter-email" placeholder="Ваш email" id="newsletter-email" required>
             <button class="button newsletter-button action-btn-style" type="submit">Подписаться</button>
           </form>
         </section>
       </div>
-    </main>
+    </div>
+  </main>
 
     <footer class="page-footer">
       <section class="footer-social">
