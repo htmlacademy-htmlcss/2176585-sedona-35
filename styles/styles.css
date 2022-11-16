@@ -1311,10 +1311,6 @@ background-color: #E6E6E6;
   border-radius: 10px;
 }
 
-.modal-container-close {
-  display: none;
-}
-
 .tooltip-toggle {
   border: none;
   background-color: transparent;
