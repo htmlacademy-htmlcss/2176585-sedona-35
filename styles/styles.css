@@ -29,7 +29,7 @@ body {
   line-height: 21px;
   color: #000000;
   background-color: #FFFFFF;
-  box-shadow: 0px 0px 15px rgb(0 0 0 / 20%);
+  box-shadow: 0 0 15px rgb(0 0 0 / 20%);
 }
 
 .visually-hidden {
@@ -169,7 +169,7 @@ body {
 }
 
 .newsletter-button {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 20px;
   line-height: 36px;
   padding: 8px 50px;
@@ -179,7 +179,7 @@ body {
 }
 
 .newsletter-input {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 24px;
   padding: 14px 20px;
@@ -192,7 +192,7 @@ body {
 }
 
 .catalog-btn {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 16px;
   line-height: 20px;
 }
@@ -542,9 +542,11 @@ body {
 
 .footer-social-list {
   display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   margin-left: 80px;
+  max-width: 142px;
 }
 
 .footer-social-item {
@@ -659,13 +661,13 @@ body {
 
 .welcome-sign {
   text-align: center;
-  padding-top: 46px;
+  padding-top: 51px;
   padding-bottom: 77px;
 }
 
 .welcome::after {
   content: url(../images/welcome-decor.svg);
-  top: 423px;
+  top: 427px;
   position: absolute;
 }
 
@@ -797,7 +799,7 @@ body {
 }
 
 .blue-background .advantages-title {
-  padding-top: 90px;
+  padding-top: 92px;
 }
 
 .blue-background .advantages-description {
@@ -900,7 +902,7 @@ body {
 }
 
 .select-control {
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 18px;
   line-height: 21px;
   width: 291px;
@@ -987,6 +989,10 @@ body {
   padding: 20px;
   border: 1px solid #E6E6E6;
   border-radius: 4px;
+}
+
+.hotel-card-image {
+  background-color: #2c535f;
 }
 
 .hotel-card-title {
@@ -1167,6 +1173,16 @@ background-color: #E6E6E6;
   padding: 12px 20px 12px;
   border-radius: 4px;
   box-sizing: border-box;
+}
+
+.date-input-field:hover {
+  background-color: #E6E6E6;
+}
+
+.date-input-field:focus {
+  background-color: #E6E6E6;
+  border: 3px solid #83B3D3;
+  padding: 9px 17px 9px 17px;
 }
 
 .date-wrapper {
@@ -1351,7 +1367,7 @@ background-color: #E6E6E6;
 }
 
 .tooltip-text:before {
-  content:'';
+  content: "";
   background-image: url("../images/tooltip-arrow.svg");
   width: 19px;
   height: 9px;
