@@ -208,7 +208,7 @@ body {
 .newsletter-wrapper {
   color: #FFFFFF;
   background-color: #82B3D3;
-  background-image: url(../images/Subscribe.jpg);
+  background-image: url(../images/subscribe.jpg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
   padding-top: 96px;
@@ -748,13 +748,13 @@ body {
   left: 170px;
 }
 
-.blue-background .centering-wrapper .description-no-logo::before {
+.blue-background .description-no-logo::before {
   background-color: rgba(255, 255, 255, 0.3);
   top: 178px;
   left: 170px;
 }
 
-.advantages-with-logo .centering-wrapper .advantages-title {
+.advantages-with-logo .advantages-title {
   margin-top: 29px;
   margin-bottom: 29px;
 }
