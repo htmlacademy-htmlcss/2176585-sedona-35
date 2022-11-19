@@ -408,7 +408,7 @@ body {
   opacity: 0.6;
 }
 
-.control:focus .control-mark {
+.control-input:focus+.control-mark {
   box-shadow: 0 0 0 3px #83B3D3;
   box-sizing: border-box;
 }
