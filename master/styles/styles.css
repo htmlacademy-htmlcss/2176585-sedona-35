@@ -408,7 +408,7 @@ body {
   opacity: 0.6;
 }
 
-.control:focus .control-mark {
+.control-input:focus+.control-mark {
   box-shadow: 0 0 0 3px #83B3D3;
   box-sizing: border-box;
 }
@@ -699,7 +699,7 @@ body {
 
 .welcome::after {
   content: url(../images/welcome-decor.svg);
-  top: 427px;
+  top: 427.5px;
   position: absolute;
 }
 
@@ -761,7 +761,7 @@ body {
 .advantages-description {
   text-align: center;
   color: #333333;
-  padding: 0 83px 0 83px;
+  padding: 0 85px 0 85px;
   margin: 0;
   overflow-wrap: anywhere;
   max-width: 230px;
