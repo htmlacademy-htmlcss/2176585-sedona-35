@@ -1263,6 +1263,10 @@ background-color: #E6E6E6;
   margin: 0;
 }
 
+.quantity-field[type='number'] {
+  -moz-appearance: textfield;
+}
+
 .quantity-field {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
